@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
-#include "Tank.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/PlayerController.h"
@@ -15,6 +14,8 @@
 /**
  * 
  */
+
+class ATank;
 UCLASS()
 class BATTLETANK_API ATankAIController : public AAIController
 {

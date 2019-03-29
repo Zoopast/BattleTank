@@ -2,6 +2,7 @@
 
 #include "TankBarrel.h"
 
-void UTankBarrel::Elevate(float DegreesPerSeconds)
+void UTankBarrel::Elevate(float RelativeSpeed)
 {
+
 }
